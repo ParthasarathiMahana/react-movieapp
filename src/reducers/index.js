@@ -1,7 +1,7 @@
-export default function movies(state = [1], action){
+export default function movies(state = [], action){
     if(action.type === 'ADD_MOVIES')
     {
-        return action.mvies;
+        return action.movies;
     }
 
     return state;
